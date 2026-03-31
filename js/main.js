@@ -72,8 +72,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 message: document.getElementById('message').value
             };
 
-            // API URL Configuration (Relative path works for both local and Render!)
-            const API_URL = '/api/contact';
+            // API URL Configuration (Linked to your LIVE Render Backend!)
+            const API_URL = 'https://portfolio-backend-vn28.onrender.com/api/contact';
 
             btn.textContent = 'Sending...';
             btn.disabled = true;
