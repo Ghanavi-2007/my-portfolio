@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghanavi | BCA Student & Full-Stack Developer</title>
+    <meta name="description" content="Personal Portfolio of Ghanavi, a BCA student at Kristu Jayanti University specializing in Frontend, Backend, and Database technologies. Explore my featured projects and technical skills.">
+    
+    <!-- Professional Typography & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Simple Web Icon (Favicon) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar glassmorphism">
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle">
+            <span class="icon">🔆</span>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero section">
+        <div class="hero-content fade-in-up">
+            <h2 class="greeting">Hello, I'm</h2>
+            <h1 class="gradient-text">Ghanavi.</h1>
+            <p class="subtitle">A BCA student at Kristu Jayanti University, building my path in the world of technology
+                and exploring the digital world.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                <!-- Ready for your resume.pdf file -->
+                <a href="resume.pdf" class="btn btn-outline" download>
+                    <span style="font-size: 1.1rem; margin-right: 0.5rem;">📄</span> Download CV
+                </a>
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <h2 class="section-title fade-in-up">About Me</h2>
+        <div class="about-container fade-in-up">
+            <div class="about-text glassmorphism">
+                <p>I am a proud resident of Bengaluru. I am currently pursuing my BCA, building my path in the world of
+                    technology. I am in my 2nd semester at Kristu Jayanti University.</p>
+                <br>
+                <p>I am passionate about learning new skills and exploring the digital world. I enjoy growing both
+                    academically and personally every day. I am determined to achieve my goals and create a successful
+                    future. I believe in staying strong, confident, and true to myself no matter what.</p>
+            </div>
+            <div class="skills-certifications">
+                <div class="skills-grid fade-in-up">
+                    <div class="skill-card glassmorphism">
+                        <div class="skill-icon">🌐</div>
+                        <h3>Frontend</h3>
+                        <p>HTML5, CSS3, JavaScript (ES6+)</p>
+                    </div>
+                    <div class="skill-card glassmorphism">
+                        <div class="skill-icon">⚙️</div>
+                        <h3>Backend</h3>
+                        <p>Node.js, Express, REST APIs</p>
+                    </div>
+                    <div class="skill-card glassmorphism">
+                        <div class="skill-icon">🗄️</div>
+                        <h3>Database</h3>
+                        <p>PostgreSQL, MongoDB</p>
+                    </div>
+                    <div class="skill-card glassmorphism">
+                        <div class="skill-icon">🏆</div>
+                        <h3>Certifications</h3>
+                        <p>NASSCOM, Learnathon Participant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <h2 class="section-title fade-in-up">Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card glassmorphism fade-in-up" style="--delay: 0.1s">
+                <div class="project-image" style="background-image: url('img/project-alpha.png')"></div>
+                <div class="project-info">
+                    <div class="project-tags"><span>Analytics</span> <span>UI/UX</span></div>
+                    <h3>Project Alpha</h3>
+                    <p>A modern dashboard with real-time analytics and predictive modeling.</p>
+                    <a href="#" class="project-link">View Project <span>&rarr;</span></a>
+                </div>
+            </div>
+            <div class="project-card glassmorphism fade-in-up" style="--delay: 0.2s">
+                <div class="project-image" style="background-image: url('img/project-beta.png')"></div>
+                <div class="project-info">
+                    <div class="project-tags"><span>E-commerce</span> <span>Node.js</span></div>
+                    <h3>Project Beta</h3>
+                    <p>Minimalist luxury store with a seamless checkout experience.</p>
+                    <a href="#" class="project-link">View Project <span>&rarr;</span></a>
+                </div>
+            </div>
+            <div class="project-card glassmorphism fade-in-up" style="--delay: 0.3s">
+                <div class="project-image placeholder-gradient-3"></div>
+                <div class="project-info">
+                    <div class="project-tags"><span>Visualization</span> <span>D3.js</span></div>
+                    <h3>Project Gamma</h3>
+                    <p>Stunning 3D data visualization tracking global climate trends.</p>
+                    <a href="#" class="project-link">View Project <span>&rarr;</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <h2 class="section-title fade-in-up">Get In Touch</h2>
+        
+        <!-- Added Contact Info Display -->
+        <div class="contact-info-display fade-in-up" style="text-align: center; margin-bottom: 3rem;">
+            <p>📧 <strong>Email:</strong> <a href="mailto:ghanavianand18@gmail.com">ghanavianand18@gmail.com</a></p>
+            <p>📞 <strong>Phone:</strong> <a href="tel:+919845152963">9845152963</a></p>
+        </div>
+
+        <div class="contact-container glassmorphism fade-in-up">
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <!-- New Phone Field -->
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="Optional">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 My Portfolio. Built with vanilla tech.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
